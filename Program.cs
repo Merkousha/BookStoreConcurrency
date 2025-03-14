@@ -9,7 +9,7 @@ namespace BookStoreConcurrency
         {
             Console.WriteLine("Welcome to BookStore Concurrency!");
 
-            // مثال Thread
+            // مثال Thread safe
             Console.WriteLine("\n--- Example: Thread ---");
             OrderProcessor.ProcessOrdersWithThreads();
 
